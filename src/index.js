@@ -47,6 +47,7 @@ async function fetchAndDisplayCatInfo(selectedBreedId) {
       textColor: "#ffffff",
       timeout: 3000,
     });
+    catInfo.innerHTML = "";
   }
 }
 
@@ -102,6 +103,7 @@ async function setupBreedSelect() {
       textColor: "#ffffff",
       timeout: 3000,
     });
+    catInfo.innerHTML = "";
   }
 }
 
